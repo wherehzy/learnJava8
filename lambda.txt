@@ -1,0 +1,15 @@
+java8新特性：lambda表达式
+
+()->{}
+
+example:
+
+Runnable oldRunnable = new Runnnable(){
+	@Override
+	public void run(){}
+};
+
+
+Runnable newRunnable = ()->{
+	System.out.println("");
+};
